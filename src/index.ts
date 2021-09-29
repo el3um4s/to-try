@@ -1,4 +1,4 @@
-import { toTry } from "./toTry";
-import { toTryAsync } from "./toTryAsync";
+import { toTry, toTryObject } from "./toTry";
+import { toTryAsync, toTryAsyncObject } from "./toTryAsync";
 
-export { toTry, toTryAsync };
+export { toTry, toTryObject, toTryAsync, toTryAsyncObject };

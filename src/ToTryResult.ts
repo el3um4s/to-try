@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 export type ToTryResult<Type> = [
     Type | null,
     Error | any

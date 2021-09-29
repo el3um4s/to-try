@@ -1,4 +1,6 @@
-import { ToTryResult } from "./ToTryResult";
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable @typescript-eslint/no-explicit-any */
+import { ToTryResult, ToTryResultObject } from "./ToTryResult";
 
 export function toTry<T>(fn: () => T, handleErr: (e: any) => void = (e) => null): ToTryResult<T> {
   
@@ -14,19 +16,19 @@ export function toTry<T>(fn: () => T, handleErr: (e: any) => void = (e) => null)
   return result;
 }
 
-// export function toTryObject<T>(fn: () => T, handleErr: (error: any) => void = error => null): ToTryResultObject<T> {
+export function toTryObject<T>(fn: () => T, handleErr: (error: any) => void = error => null): ToTryResultObject<T> {
   
-//   const result:ToTryResultObject<T> = {
-//     result: null,
-//     err: null
-//   };
+  const result:ToTryResultObject<T> = {
+    result: null,
+    err: null
+  };
   
-//   try {
-//     result.result = fn();
-//   } catch (err) {
-//     result.err = err;
-//     handleErr(err);
-//   }
+  try {
+    result.result = fn();
+  } catch (err) {
+    result.err = err;
+    handleErr(err);
+  }
 
-//   return result;
-// }
+  return result;
+}
