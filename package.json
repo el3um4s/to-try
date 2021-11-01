@@ -1,6 +1,6 @@
 {
   "name": "@el3um4s/to-try",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Wrapper for error handling without try-catch",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -43,18 +43,18 @@
   "homepage": "https://github.com/el3um4s/to-try#readme",
   "devDependencies": {
     "@types/jest": "^27.0.2",
-    "@types/node": "^16.10.1",
-    "@typescript-eslint/eslint-plugin": "^4.32.0",
-    "@typescript-eslint/parser": "^4.32.0",
+    "@types/node": "^16.11.6",
+    "@typescript-eslint/eslint-plugin": "^5.3.0",
+    "@typescript-eslint/parser": "^5.3.0",
     "ansi-regex": ">=6.0.1",
-    "eslint": "^7.32.0",
+    "eslint": "^8.1.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-config-standard": "^16.0.3",
-    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^5.1.0",
-    "jest": "^27.2.3",
-    "ts-jest": "^27.0.5",
-    "typescript": "^4.4.3"
+    "eslint-plugin-promise": "^5.1.1",
+    "jest": "^27.3.1",
+    "ts-jest": "^27.0.7",
+    "typescript": "^4.4.4"
   }
 }
