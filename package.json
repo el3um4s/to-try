@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/el3um4s/typescript-npm-package-starter.git"
+    "url": "git+https://github.com/el3um4s/el3um4s/to-try.git"
   },
   "files": [
     "lib/**/*"
