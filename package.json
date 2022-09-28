@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/el3um4s/el3um4s/to-try.git"
+    "url": "git+https://github.com/el3um4s/to-try.git"
   },
   "files": [
     "lib/**/*"
