@@ -1,6 +1,6 @@
 {
   "name": "@el3um4s/to-try",
-  "version": "0.0.8",
+  "version": "1.0.0",
   "description": "Wrapper for error handling without try-catch",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
